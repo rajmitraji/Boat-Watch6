@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart watch</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body onload="timer()">
+    <header>
+        <nav>
+            <img id="image-logo" src="/image/logo.svg" alt="Amazon">
+        </nav>
+    </header>
+    <section class="container">
+        <div id="avatar">
+            <img id="watch-sec" src="/image/smBlack.png" alt="Heart">
+            <p id="time"></p>
+            <img id="heart" src="/image/heart.png" alt="Heart">
+            <span id="heart-rate">78</span>
+        </div>
+        <div id="info">
+            <h1 class="title">Boat Wave 19 - The Smartest Watch</h1>
+            <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt corporis minus molestiae voluptas autem labore, blanditiis ex soluta suscipit totam!</p>
+            <h3 class="section">Select color</h3>
+            <ul class="color">
+                
+                <li class="red" onclick="red()"></li>
+                <li class="pink" onclick="pink()"></li>
+                <li class="purple" onclick="purple()"></li>
+                <li class="blue" onclick="blue()"></li>
+
+                <li class="black" onclick="black()"></li>
+            </ul>
+            <h3 class="section">Features</h3>
+            <ul class="options">
+                <li class=""><a onclick="timer()">Time</a></li>
+                <li class=""><a onclick="heartRate()">Heart-Rate</a></li>
+            </ul>
+            <button class="buy">
+                BUY NOW
+            </button>
+        </div>
+    </section>
+
+    <script src="/java/index.js"></script>
+</body>
+</html>
